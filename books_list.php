@@ -40,7 +40,7 @@ if (!isset($_SESSION["student_id"])){
     echo $_SESSION["user_name"];
     ?>
 </div>
-    <table>
+    <table class="table table-striped">
         <th>Book ID</th>
         <th>Book Name</th>
         <th>Author</th>

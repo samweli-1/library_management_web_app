@@ -50,11 +50,11 @@ if (!isset($_SESSION["student_id"])){
     <div class="card">
   <div class="card-body">
      <h2>Book Details</h2>
-    <ul>
-        <li>Book Title: <?php echo $b; ?> </li>
-        <li>Author: <?php echo $c; ?></li>
-        <li>Category: <?php echo $e; ?></li>
-        <li>Status: <?php echo $d; ?></li>
+    <ul class="list-group">
+        <li class="list-group-item">Book Title: <?php echo $b; ?> </li>
+        <li class="list-group-item">Author: <?php echo $c; ?></li>
+        <li class="list-group-item">Category: <?php echo $e; ?></li>
+        <li class="list-group-item">Status: <?php echo $d; ?></li>
     </ul>
   </div>
 </div>
