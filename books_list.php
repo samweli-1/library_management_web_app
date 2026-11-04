@@ -13,6 +13,7 @@
         <th>Category</th>
         <th>Status</th>
         <th>Update</th>
+        <th>Borrow</th>
         <th>Delete</th>
         <th>View</th>
 
@@ -30,6 +31,10 @@
             echo "<td><a href='update_book_form.php?id=".$row['book_id']." &t=>".$row['title']."
                       &a=".$row['author']." &c=".$row['category']." 
                       &s=".$row['availability_status']."'>Update</a></td>";
+
+            echo "<td><a href='borrow_book.php?id=".$row['book_id']." &t=>".$row['title']."
+                      &a=".$row['author']." &c=".$row['category']." 
+                      &s=".$row['availability_status']."'>Borrow</a></td>";
 
             echo "<td><a href='view_book.php?id=".$row['book_id']." &t=>".$row['title']."
                       &a=".$row['author']." &c=".$row['category']." 

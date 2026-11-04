@@ -1,9 +1,9 @@
 <?php 
 session_start();
-// if (!isset($_SESSION["user_id"])){
-//     header("location: login_form.php");
-//     exit();
-// }
+if (!isset($_SESSION["student_id"])){
+    header("location: login_form.php");
+    exit();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

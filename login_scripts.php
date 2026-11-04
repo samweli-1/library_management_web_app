@@ -9,7 +9,7 @@ if (isset($_POST["login"])) {
     $result = mysqli_query($con,$login);
     $user = mysqli_fetch_assoc($result);
     if ($user){
-        $_SESSION["user_id"] = $user["user_id"]; 
+        $_SESSION["student_id"] = $user["student_id"]; 
         $_SESSION["user_name"] = $user["user_name"];
         $_SESSION["email"] = $user["email"];
 
