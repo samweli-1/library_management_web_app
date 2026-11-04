@@ -11,18 +11,34 @@ if (!isset($_SESSION["student_id"])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.js">
 </head>
 <body>
-    <div>
-        <a href="dashboard.php">Home</a>
-        <a href="create_user.php">Register</a>
-        <a href="books_list.php">Books</a>
-        <a href="borrowed_books.php">Borrowed Books</a>
-        <a href="contact_us.php">Contact</a>
-        <a href="logout.php">Logout</a>
-    </div>
+    <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link" href="dashboard.php">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="create_user.php">Register</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="books_list.php">Books</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="borrowed_books.php">Borrowed Books</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="contact_us.php">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="logout.php">Logout</a>
+  </li>
+</ul>
+<div>
     <?php
     echo $_SESSION["user_name"];
     ?>
+</div>
 </body>
 </html>
