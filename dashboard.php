@@ -1,4 +1,10 @@
-
+<?php 
+session_start();
+// if (!isset($_SESSION["user_id"])){
+//     header("location: login_form.php");
+//     exit();
+// }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,5 +21,8 @@
         <a href="contact_us.php">Contact</a>
         <a href="logout.php">Logout</a>
     </div>
+    <?php
+    echo $_SESSION["user_name"];
+    ?>
 </body>
 </html>
