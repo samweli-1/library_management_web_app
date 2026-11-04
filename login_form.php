@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h2>User Login Form</h2>
     <form action="login_scripts.php" method="POST">
         Email: <input type="email" name="mail"><br><br>
         Password: <input type="password" name="upass"><br><br>

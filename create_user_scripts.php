@@ -4,7 +4,7 @@ if ( isset( $_POST["create"] ) ) {
     $b= $_POST["mail"];
     $c= $_POST["upass"];
     $con=mysqli_connect("localhost","root","","library_db");
-    $create="INSERT INTO `users` (`student_id`, `user_name`, `email`, `password`)
+    $create="INSERT INTO `users` (`student_id`, `user_name`, `email`, `passwords`)
              VALUES (NULL, '$a', '$b', '$c')";
     $result=mysqli_query($con,$create);
     if ($result) {

@@ -15,11 +15,10 @@ if (isset($_POST["login"])) {
 
         header("location: dashboard.php");
         exit();
-        }
+    }
         else {
-            echo "Wrong Email Or Password";
-            header("location: login_form.php");
-            exit(); 
+            header("location: login_form.php?");
         }
-}
+    }
+
 ?>

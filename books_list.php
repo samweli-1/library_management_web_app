@@ -32,7 +32,7 @@
                       &s=".$row['availability_status']."'>Update</a></td>";
 
             echo "<td><a href='view_book.php?id=".$row['book_id']." &t=>".$row['title']."
-                       &a=".$row['author']." &c=".$row['category']." 
+                      &a=".$row['author']." &c=".$row['category']." 
                       &s=".$row['availability_status']."'>View</a></td>";
 
             echo "<td><a href='delete_book.php?id=".$row['book_id']."'>Delete</a></td>";

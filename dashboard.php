@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,9 +8,12 @@
 </head>
 <body>
     <div>
+        <a href="dashboard.php">Home</a>
+        <a href="create_user.php">Register</a>
         <a href="books_list.php">Books</a>
-        <a href="borrowed_books_list.php">Borrowed Books</a>
+        <a href="borrowed_books.php">Borrowed Books</a>
         <a href="contact_us.php">Contact</a>
+        <a href="logout.php">Logout</a>
     </div>
 </body>
 </html>
